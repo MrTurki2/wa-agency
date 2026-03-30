@@ -8,6 +8,8 @@ import { learnFromUsage } from './core/preferences.mjs'
 import { CONFIG, validateConfig } from './core/config.mjs'
 import { simulatorHTML } from './views/simulator.mjs'
 import { dashboardHTML } from './views/dashboard.mjs'
+import { setupHTML } from './views/setup.mjs'
+import { startBaileys, getStatus, sendWhatsApp, onBaileysMessage } from './core/baileys.mjs'
 
 const app = new Hono()
 const PORT = CONFIG.PORT
@@ -143,14 +145,53 @@ app.get('/api/users', (c) => {
   return c.json(users)
 })
 
+// ─── WhatsApp Setup ─────────────────────
+
+app.get('/setup', (c) => c.html(setupHTML()))
+app.get('/api/wa-status', (c) => c.json(getStatus()))
+
 // ─── Simulator UI ────────────────────────
 
 app.get('/', (c) => c.html(simulatorHTML()))
 
-// ─── Start server ────────────────────────
+// ─── Baileys message handler ────────────
 
-serve({ fetch: app.fetch, port: PORT }, () => {
+async function handleBaileysMessage(phone, text) {
+  if (!checkRateLimit(phone)) return
+
+  const start = Date.now()
+  try {
+    const { agent, ctx, classification } = await route(phone, text, 'text', null)
+    const response = await agent.handle(ctx)
+    const agentName = agent.getName()
+
+    const user = getUser(phone)
+    if (user) {
+      saveMessage(user.id, 'in', text, agentName, 'text')
+      saveMessage(user.id, 'out', response, agentName)
+      addToConversation(user.id, 'user', text)
+      addToConversation(user.id, 'assistant', response)
+      touchUser(phone)
+      logMetric(user.id, agentName, 'handle', Date.now() - start, classification?.tokens || 0)
+      try { learnFromUsage(user.id) } catch {}
+    }
+
+    await sendWhatsApp(phone, response)
+    console.log(`📨 ${phone} → [${agentName}] ${Date.now() - start}ms`)
+  } catch (e) {
+    console.error('Baileys handle error:', e.message)
+    try { await sendWhatsApp(phone, '⚠️ صار خطأ، جرب مرة ثانية.') } catch {}
+  }
+}
+
+// ─── Start server + Baileys ─────────────
+
+serve({ fetch: app.fetch, port: PORT }, async () => {
   console.log(`\n🚀 WA-Agency running on http://localhost:${PORT}`)
   console.log(`📱 Simulator: http://localhost:${PORT}`)
+  console.log(`🔗 Setup: http://localhost:${PORT}/setup`)
   console.log(`📊 Stats: http://localhost:${PORT}/api/stats\n`)
+
+  onBaileysMessage(handleBaileysMessage)
+  startBaileys().catch(e => console.error('Baileys start failed:', e.message))
 })

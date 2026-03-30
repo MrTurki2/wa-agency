@@ -12,8 +12,9 @@
   },
   "dependencies": {
     "@hono/node-server": "^1.19.11",
-    "hono": "^4.12.9",
-    "better-sqlite3": "^11.7.0"
+    "@whiskeysockets/baileys": "^7.0.0-rc.9",
+    "better-sqlite3": "^11.7.0",
+    "hono": "^4.12.9"
   },
   "engines": {
     "node": ">=22.0.0"
