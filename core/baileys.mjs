@@ -1,5 +1,5 @@
-// core/baileys.mjs — WhatsApp connection via Baileys
-import makeWASocket, { useMultiFileAuthState, DisconnectReason, makeCacheableSignalKeyStore } from '@whiskeysockets/baileys'
+// core/baileys.mjs — WhatsApp connection via Baileys v6
+import makeWASocket, { useMultiFileAuthState, DisconnectReason } from '@whiskeysockets/baileys'
 import { rmSync } from 'fs'
 
 let sock = null
@@ -38,11 +38,8 @@ export async function startBaileys() {
   const { state, saveCreds } = await useMultiFileAuthState('data/auth')
 
   sock = makeWASocket({
-    auth: {
-      creds: state.creds,
-      keys: makeCacheableSignalKeyStore(state.keys, { level: 'silent' }),
-    },
-    printQRInTerminal: false,
+    auth: state,
+    printQRInTerminal: true,
     browser: ['WA-Agency', 'Chrome', '22.0'],
   })
 
@@ -74,7 +71,7 @@ export async function startBaileys() {
       } else if (retryCount < MAX_RETRIES) {
         retryCount++
         const delay = Math.min(retryCount * 5000, 30000)
-        console.log(`⚠️ Disconnected, retry ${retryCount}/${MAX_RETRIES} in ${delay/1000}s...`)
+        console.log(`⚠️ Disconnected, retry ${retryCount}/${MAX_RETRIES} in ${delay / 1000}s...`)
         setTimeout(startBaileys, delay)
       } else {
         console.log('❌ Max retries reached. Open /setup to reconnect.')
@@ -88,7 +85,7 @@ export async function startBaileys() {
     for (const msg of messages) {
       if (msg.key.fromMe) continue
       const phone = msg.key.remoteJid?.replace('@s.whatsapp.net', '')
-      if (!phone || msg.key.remoteJid?.includes('@g.us')) continue // skip groups
+      if (!phone || msg.key.remoteJid?.includes('@g.us')) continue
 
       const text = msg.message?.conversation
         || msg.message?.extendedTextMessage?.text
