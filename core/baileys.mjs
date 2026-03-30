@@ -1,9 +1,12 @@
 // core/baileys.mjs — WhatsApp connection via Baileys
 import makeWASocket, { useMultiFileAuthState, DisconnectReason, makeCacheableSignalKeyStore } from '@whiskeysockets/baileys'
+import { rmSync } from 'fs'
 
 let sock = null
 let qrString = null
 let connectionStatus = 'disconnected' // disconnected | connecting | open
+let retryCount = 0
+const MAX_RETRIES = 5
 const messageHandlers = new Set()
 
 // ─── Get status ──────────────────────────
@@ -55,6 +58,7 @@ export async function startBaileys() {
     if (connection === 'open') {
       connectionStatus = 'open'
       qrString = null
+      retryCount = 0
       console.log('✅ WhatsApp connected!')
     }
 
@@ -62,11 +66,19 @@ export async function startBaileys() {
       connectionStatus = 'disconnected'
       const code = lastDisconnect?.error?.output?.statusCode
       if (code === DisconnectReason.loggedOut) {
-        console.log('🚪 Logged out — need new QR scan')
+        console.log('🚪 Logged out — clearing auth for fresh QR')
         qrString = null
+        retryCount = 0
+        try { rmSync('data/auth', { recursive: true, force: true }) } catch {}
+        setTimeout(startBaileys, 2000)
+      } else if (retryCount < MAX_RETRIES) {
+        retryCount++
+        const delay = Math.min(retryCount * 5000, 30000)
+        console.log(`⚠️ Disconnected, retry ${retryCount}/${MAX_RETRIES} in ${delay/1000}s...`)
+        setTimeout(startBaileys, delay)
       } else {
-        console.log('⚠️ Disconnected, reconnecting in 3s...')
-        setTimeout(startBaileys, 3000)
+        console.log('❌ Max retries reached. Open /setup to reconnect.')
+        retryCount = 0
       }
     }
   })
