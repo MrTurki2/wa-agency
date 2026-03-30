@@ -39,8 +39,9 @@ export async function startBaileys() {
 
   sock = makeWASocket({
     auth: state,
-    printQRInTerminal: true,
-    browser: ['WA-Agency', 'Chrome', '22.0'],
+    printQRInTerminal: false,
+    defaultQueryTimeoutMs: undefined,
+    browser: ['Mac OS', 'Chrome', '14.4.1'],
   })
 
   sock.ev.on('creds.update', saveCreds)

@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@hono/node-server": "^1.19.11",
-    "@whiskeysockets/baileys": "^6.7.21",
+    "@whiskeysockets/baileys": "^6.17.16",
     "better-sqlite3": "^11.7.0",
     "hono": "^4.12.9"
   },
