@@ -1,5 +1,6 @@
 // core/baileys.mjs — WhatsApp connection via Baileys v6
-import makeWASocket, { useMultiFileAuthState, DisconnectReason } from '@whiskeysockets/baileys'
+import baileys from '@whiskeysockets/baileys'
+const { makeWASocket, useMultiFileAuthState, DisconnectReason } = baileys
 import { rmSync } from 'fs'
 
 let sock = null
