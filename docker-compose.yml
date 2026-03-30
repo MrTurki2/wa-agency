@@ -1,0 +1,13 @@
+services:
+  wa-agency:
+    build: .
+    container_name: wa-agency
+    restart: unless-stopped
+    ports:
+      - "3201:3201"
+    volumes:
+      - ./data:/app/data
+    env_file:
+      - config/.env
+    environment:
+      - NODE_ENV=production
