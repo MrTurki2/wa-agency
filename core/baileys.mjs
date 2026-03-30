@@ -7,13 +7,20 @@ let sock = null
 let qrString = null
 let connectionStatus = 'disconnected' // disconnected | connecting | open
 let retryCount = 0
+let pairingPhone = null
+let pairingCode = null
 const MAX_RETRIES = 5
 const messageHandlers = new Set()
 
 // ─── Get status ──────────────────────────
 
 export function getStatus() {
-  return { status: connectionStatus, qr: qrString }
+  return { status: connectionStatus, qr: qrString, pairingCode }
+}
+
+export function setPairingPhone(phone) {
+  pairingPhone = phone?.replace(/[^0-9]/g, '') || null
+  pairingCode = null
 }
 
 // ─── Register message handler ────────────
@@ -47,11 +54,26 @@ export async function startBaileys() {
 
   sock.ev.on('creds.update', saveCreds)
 
-  sock.ev.on('connection.update', ({ qr, connection, lastDisconnect }) => {
+  // Try pairing code after first connection attempt
+  let pairingRequested = false
+
+  sock.ev.on('connection.update', async ({ qr, connection, lastDisconnect }) => {
     if (qr) {
       qrString = qr
       connectionStatus = 'connecting'
       console.log('📱 New QR code ready — open /setup to scan')
+
+      // Also try pairing code if phone number is set
+      if (!pairingRequested && pairingPhone) {
+        pairingRequested = true
+        try {
+          const code = await sock.requestPairingCode(pairingPhone)
+          pairingCode = code
+          console.log(`🔢 Pairing code: ${code} — enter it in WhatsApp`)
+        } catch (e) {
+          console.warn('Pairing code failed:', e.message)
+        }
+      }
     }
 
     if (connection === 'open') {

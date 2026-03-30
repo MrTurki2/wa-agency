@@ -9,7 +9,7 @@ import { CONFIG, validateConfig } from './core/config.mjs'
 import { simulatorHTML } from './views/simulator.mjs'
 import { dashboardHTML } from './views/dashboard.mjs'
 import { setupHTML } from './views/setup.mjs'
-import { startBaileys, getStatus, sendWhatsApp, onBaileysMessage } from './core/baileys.mjs'
+import { startBaileys, getStatus, sendWhatsApp, onBaileysMessage, setPairingPhone } from './core/baileys.mjs'
 
 const app = new Hono()
 const PORT = CONFIG.PORT
@@ -149,6 +149,13 @@ app.get('/api/users', (c) => {
 
 app.get('/setup', (c) => c.html(setupHTML()))
 app.get('/api/wa-status', (c) => c.json(getStatus()))
+
+app.post('/api/wa-pair', async (c) => {
+  const { phone } = await c.req.json()
+  if (!phone) return c.json({ error: 'phone required' }, 400)
+  setPairingPhone(phone)
+  return c.json({ ok: true, message: 'Pairing phone set. Reconnecting...' })
+})
 
 // ─── Simulator UI ────────────────────────
 
