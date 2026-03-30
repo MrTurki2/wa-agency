@@ -1,0 +1,2231 @@
+{
+  "total": 310,
+  "success": 310,
+  "errors": [],
+  "agentCounts": {
+    "onboarding": 20,
+    "general": 16,
+    "price": 65,
+    "morning": 30,
+    "search": 85,
+    "creative": 58,
+    "tools": 36
+  },
+  "avgMs": [
+    1,
+    1209,
+    692,
+    664,
+    1939,
+    1142,
+    1124,
+    1763,
+    554,
+    455,
+    1,
+    1,
+    653,
+    886,
+    886,
+    2006,
+    833,
+    1539,
+    2430,
+    1519,
+    289,
+    263,
+    781,
+    1688,
+    1251,
+    728,
+    786,
+    1026,
+    1293,
+    1,
+    911,
+    824,
+    532,
+    2367,
+    249,
+    1784,
+    1245,
+    1,
+    2659,
+    453,
+    695,
+    602,
+    1,
+    2991,
+    1232,
+    277,
+    338,
+    786,
+    680,
+    1850,
+    1521,
+    2,
+    868,
+    379,
+    2179,
+    1077,
+    1174,
+    1276,
+    3,
+    764,
+    975,
+    1157,
+    2334,
+    466,
+    257,
+    1643,
+    3,
+    1482,
+    3204,
+    328,
+    1227,
+    2,
+    534,
+    1262,
+    489,
+    231,
+    2241,
+    693,
+    985,
+    1512,
+    2487,
+    3,
+    1497,
+    837,
+    3,
+    1815,
+    1710,
+    1413,
+    2,
+    679,
+    1060,
+    873,
+    1774,
+    1868,
+    409,
+    265,
+    2,
+    2380,
+    982,
+    15,
+    1317,
+    2042,
+    448,
+    265,
+    999,
+    948,
+    1155,
+    1241,
+    2009,
+    1582,
+    775,
+    3,
+    1663,
+    2,
+    222,
+    856,
+    818,
+    1451,
+    2,
+    650,
+    685,
+    1678,
+    1605,
+    540,
+    1029,
+    253,
+    3,
+    2422,
+    980,
+    2,
+    3561,
+    471,
+    1542,
+    248,
+    713,
+    1303,
+    828,
+    1338,
+    1499,
+    2,
+    769,
+    2438,
+    820,
+    1413,
+    3068,
+    227,
+    289,
+    1606,
+    3,
+    783,
+    1371,
+    683,
+    1485,
+    381,
+    469,
+    1110,
+    3,
+    1543,
+    1067,
+    2,
+    2034,
+    396,
+    1073,
+    1193,
+    2159,
+    279,
+    1673,
+    1590,
+    775,
+    4294,
+    768,
+    1203,
+    619,
+    342,
+    941,
+    1399,
+    729,
+    695,
+    355,
+    2039,
+    1578,
+    237,
+    817,
+    1,
+    1152,
+    465,
+    1,
+    1628,
+    1104,
+    1058,
+    471,
+    240,
+    558,
+    895,
+    6,
+    1729,
+    729,
+    1558,
+    826,
+    1228,
+    1752,
+    948,
+    272,
+    447,
+    1667,
+    1,
+    1132,
+    994,
+    932,
+    4798,
+    1573,
+    503,
+    231,
+    1,
+    650,
+    667,
+    1289,
+    669,
+    444,
+    647,
+    845,
+    2498,
+    308,
+    1,
+    2774,
+    4005,
+    1433,
+    870,
+    1408,
+    1443,
+    430,
+    1302,
+    508,
+    1610,
+    1,
+    1,
+    878,
+    783,
+    870,
+    2658,
+    1438,
+    1270,
+    276,
+    8,
+    1042,
+    545,
+    3,
+    3199,
+    1177,
+    498,
+    1308,
+    1997,
+    307,
+    731,
+    2,
+    2048,
+    616,
+    722,
+    796,
+    1482,
+    1773,
+    368,
+    1032,
+    245,
+    2274,
+    995,
+    1223,
+    1372,
+    3140,
+    1867,
+    438,
+    273,
+    1989,
+    899,
+    1,
+    1436,
+    596,
+    518,
+    1356,
+    1165,
+    3289,
+    472,
+    1,
+    1875,
+    2175,
+    985,
+    1,
+    1029,
+    2258,
+    422,
+    1185,
+    311,
+    1633
+  ],
+  "byPersona": {
+    "محمد": {
+      "success": 31,
+      "errors": 0,
+      "messages": [
+        {
+          "msg": "السلام عليكم",
+          "agent": "onboarding",
+          "ms": 0,
+          "responseLen": 199
+        },
+        {
+          "msg": "محمد الغامدي",
+          "agent": "onboarding",
+          "ms": 1,
+          "responseLen": 61
+        },
+        {
+          "msg": "الرياض",
+          "agent": "general",
+          "ms": 1209,
+          "responseLen": 34
+        },
+        {
+          "msg": "كم سعر الذهب؟",
+          "agent": "price",
+          "ms": 692,
+          "responseLen": 221
+        },
+        {
+          "msg": "سعر البتكوين",
+          "agent": "price",
+          "ms": 664,
+          "responseLen": 82
+        },
+        {
+          "msg": "سعر الدولار بالريال",
+          "agent": "price",
+          "ms": 0,
+          "responseLen": 79
+        },
+        {
+          "msg": "صباح الخير",
+          "agent": "morning",
+          "ms": 1939,
+          "responseLen": 294
+        },
+        {
+          "msg": "ابحث عن الذكاء الاصطناعي",
+          "agent": "search",
+          "ms": 1142,
+          "responseLen": 497
+        },
+        {
+          "msg": "وش يعني blockchain",
+          "agent": "search",
+          "ms": 1124,
+          "responseLen": 575
+        },
+        {
+          "msg": "اكتب لي إيميل اعتذار عن تأخر اجتماع",
+          "agent": "creative",
+          "ms": 1763,
+          "responseLen": 683
+        },
+        {
+          "msg": "اكتب تغريدة عن ريادة الأعمال",
+          "agent": "creative",
+          "ms": 554,
+          "responseLen": 215
+        },
+        {
+          "msg": "ترجم Hello, how are you?",
+          "agent": "tools",
+          "ms": 455,
+          "responseLen": 30
+        },
+        {
+          "msg": "كيو ار https://example.com",
+          "agent": "tools",
+          "ms": 1,
+          "responseLen": 134
+        },
+        {
+          "msg": "حول 100 دولار لريال",
+          "agent": "price",
+          "ms": 1,
+          "responseLen": 79
+        },
+        {
+          "msg": "كيف حالك؟",
+          "agent": "general",
+          "ms": 653,
+          "responseLen": 41
+        },
+        {
+          "msg": "وش أخبارك؟",
+          "agent": "general",
+          "ms": 886,
+          "responseLen": 69
+        },
+        {
+          "msg": "ابحث عن أفضل مطاعم الرياض",
+          "agent": "search",
+          "ms": 886,
+          "responseLen": 344
+        },
+        {
+          "msg": "اكتب رسالة تهنئة بالترقية",
+          "agent": "creative",
+          "ms": 2006,
+          "responseLen": 733
+        },
+        {
+          "msg": "سعر اليورو",
+          "agent": "price",
+          "ms": 833,
+          "responseLen": 62
+        },
+        {
+          "msg": "وش الفرق بين ChatGPT و Claude",
+          "agent": "search",
+          "ms": 1539,
+          "responseLen": 509
+        },
+        {
+          "msg": "اكتب لي سيرة ذاتية مختصرة",
+          "agent": "creative",
+          "ms": 2430,
+          "responseLen": 203
+        },
+        {
+          "msg": "صباح النور",
+          "agent": "morning",
+          "ms": 1519,
+          "responseLen": 470
+        },
+        {
+          "msg": "سعر النفط اليوم",
+          "agent": "price",
+          "ms": 289,
+          "responseLen": 57
+        },
+        {
+          "msg": "ترجم شكراً جزيلاً لتعاونكم",
+          "agent": "tools",
+          "ms": 263,
+          "responseLen": 53
+        },
+        {
+          "msg": "من هو إيلون ماسك",
+          "agent": "search",
+          "ms": 781,
+          "responseLen": 303
+        },
+        {
+          "msg": "اكتب بوست لينكد إن عن التحول الرقمي",
+          "agent": "creative",
+          "ms": 1688,
+          "responseLen": 687
+        },
+        {
+          "msg": "وش رأيك بالسوق السعودي؟",
+          "agent": "price",
+          "ms": 1251,
+          "responseLen": 318
+        },
+        {
+          "msg": "حول 50 يورو لريال",
+          "agent": "price",
+          "ms": 728,
+          "responseLen": 62
+        },
+        {
+          "msg": "ابحث عن رؤية 2030",
+          "agent": "search",
+          "ms": 786,
+          "responseLen": 410
+        },
+        {
+          "msg": "مشكور على المساعدة",
+          "agent": "general",
+          "ms": 1026,
+          "responseLen": 52
+        },
+        {
+          "msg": "تقرير يومي",
+          "agent": "morning",
+          "ms": 1293,
+          "responseLen": 311
+        }
+      ]
+    },
+    "نورة": {
+      "success": 31,
+      "errors": 0,
+      "messages": [
+        {
+          "msg": "مرحبا",
+          "agent": "onboarding",
+          "ms": 0,
+          "responseLen": 199
+        },
+        {
+          "msg": "نورة العتيبي",
+          "agent": "onboarding",
+          "ms": 1,
+          "responseLen": 61
+        },
+        {
+          "msg": "جدة",
+          "agent": "general",
+          "ms": 911,
+          "responseLen": 34
+        },
+        {
+          "msg": "ابحث عن آخر أبحاث الذكاء الاصطناعي في الطب",
+          "agent": "search",
+          "ms": 824,
+          "responseLen": 410
+        },
+        {
+          "msg": "سعر الذهب اليوم",
+          "agent": "price",
+          "ms": 532,
+          "responseLen": 163
+        },
+        {
+          "msg": "اكتب إيميل لمريض عن موعد مراجعة",
+          "agent": "creative",
+          "ms": 2367,
+          "responseLen": 765
+        },
+        {
+          "msg": "ترجم Patient follow-up appointment scheduled",
+          "agent": "tools",
+          "ms": 249,
+          "responseLen": 34
+        },
+        {
+          "msg": "صباح الخير",
+          "agent": "morning",
+          "ms": 1784,
+          "responseLen": 466
+        },
+        {
+          "msg": "وش يعني telemedicine",
+          "agent": "search",
+          "ms": 1245,
+          "responseLen": 496
+        },
+        {
+          "msg": "كيو ار https://hospital.sa/appointment",
+          "agent": "tools",
+          "ms": 1,
+          "responseLen": 160
+        },
+        {
+          "msg": "اكتب رسالة شكر لفريق العمل",
+          "agent": "creative",
+          "ms": 2659,
+          "responseLen": 904
+        },
+        {
+          "msg": "سعر البتكوين",
+          "agent": "price",
+          "ms": 453,
+          "responseLen": 82
+        },
+        {
+          "msg": "من هو أبو بكر الرازي",
+          "agent": "search",
+          "ms": 695,
+          "responseLen": 275
+        },
+        {
+          "msg": "ابحث عن أعراض نقص فيتامين D",
+          "agent": "search",
+          "ms": 602,
+          "responseLen": 216
+        },
+        {
+          "msg": "حول 200 دولار لريال",
+          "agent": "price",
+          "ms": 1,
+          "responseLen": 79
+        },
+        {
+          "msg": "اكتب مقال قصير عن الصحة النفسية",
+          "agent": "creative",
+          "ms": 2991,
+          "responseLen": 1711
+        },
+        {
+          "msg": "وش أخبار كورونا",
+          "agent": "search",
+          "ms": 1232,
+          "responseLen": 328
+        },
+        {
+          "msg": "ترجم The surgery was successful",
+          "agent": "tools",
+          "ms": 277,
+          "responseLen": 31
+        },
+        {
+          "msg": "سعر الفضة",
+          "agent": "price",
+          "ms": 338,
+          "responseLen": 57
+        },
+        {
+          "msg": "اكتب تغريدة عن أهمية الفحص الدوري",
+          "agent": "creative",
+          "ms": 786,
+          "responseLen": 257
+        },
+        {
+          "msg": "كم سعر الدولار",
+          "agent": "price",
+          "ms": 0,
+          "responseLen": 79
+        },
+        {
+          "msg": "ابحث عن أفضل مستشفيات جدة",
+          "agent": "search",
+          "ms": 680,
+          "responseLen": 463
+        },
+        {
+          "msg": "صباح النور يا وكيل",
+          "agent": "morning",
+          "ms": 1850,
+          "responseLen": 477
+        },
+        {
+          "msg": "اكتب رسالة اعتذار عن إلغاء موعد",
+          "agent": "creative",
+          "ms": 1521,
+          "responseLen": 532
+        },
+        {
+          "msg": "حول 1000 ريال لدولار",
+          "agent": "price",
+          "ms": 2,
+          "responseLen": 79
+        },
+        {
+          "msg": "وش يعني AI diagnostics",
+          "agent": "search",
+          "ms": 868,
+          "responseLen": 394
+        },
+        {
+          "msg": "سعر سهم أرامكو",
+          "agent": "price",
+          "ms": 379,
+          "responseLen": 80
+        },
+        {
+          "msg": "اكتب بوست عن يوم الطبيب العالمي",
+          "agent": "creative",
+          "ms": 2179,
+          "responseLen": 790
+        },
+        {
+          "msg": "ابحث عن منح دراسية طبية",
+          "agent": "search",
+          "ms": 1077,
+          "responseLen": 434
+        },
+        {
+          "msg": "شكراً وكيل",
+          "agent": "general",
+          "ms": 1174,
+          "responseLen": 45
+        },
+        {
+          "msg": "تقرير يومي",
+          "agent": "morning",
+          "ms": 1276,
+          "responseLen": 276
+        }
+      ]
+    },
+    "فهد": {
+      "success": 31,
+      "errors": 0,
+      "messages": [
+        {
+          "msg": "هلا",
+          "agent": "onboarding",
+          "ms": 0,
+          "responseLen": 199
+        },
+        {
+          "msg": "فهد القحطاني",
+          "agent": "onboarding",
+          "ms": 3,
+          "responseLen": 61
+        },
+        {
+          "msg": "الدمام",
+          "agent": "general",
+          "ms": 764,
+          "responseLen": 53
+        },
+        {
+          "msg": "ابحث عن أفضل لغات البرمجة 2026",
+          "agent": "search",
+          "ms": 975,
+          "responseLen": 469
+        },
+        {
+          "msg": "وش يعني Rust ownership",
+          "agent": "search",
+          "ms": 1157,
+          "responseLen": 394
+        },
+        {
+          "msg": "اكتب لي README لمشروع Node.js",
+          "agent": "creative",
+          "ms": 2334,
+          "responseLen": 1189
+        },
+        {
+          "msg": "سعر البتكوين",
+          "agent": "price",
+          "ms": 466,
+          "responseLen": 82
+        },
+        {
+          "msg": "ترجم This function handles authentication",
+          "agent": "tools",
+          "ms": 257,
+          "responseLen": 50
+        },
+        {
+          "msg": "صباح الخير",
+          "agent": "morning",
+          "ms": 1643,
+          "responseLen": 439
+        },
+        {
+          "msg": "كيو ار https://github.com/myproject",
+          "agent": "tools",
+          "ms": 3,
+          "responseLen": 154
+        },
+        {
+          "msg": "وش الفرق بين REST و GraphQL",
+          "agent": "search",
+          "ms": 1482,
+          "responseLen": 404
+        },
+        {
+          "msg": "اكتب إيميل لعميل عن تأخر المشروع",
+          "agent": "creative",
+          "ms": 3204,
+          "responseLen": 1510
+        },
+        {
+          "msg": "سعر الإيثيريوم",
+          "agent": "price",
+          "ms": 328,
+          "responseLen": 91
+        },
+        {
+          "msg": "ابحث عن أفضل أدوات DevOps",
+          "agent": "search",
+          "ms": 1227,
+          "responseLen": 440
+        },
+        {
+          "msg": "حول 500 دولار لريال",
+          "agent": "price",
+          "ms": 2,
+          "responseLen": 79
+        },
+        {
+          "msg": "اكتب تغريدة عن البرمجة",
+          "agent": "creative",
+          "ms": 534,
+          "responseLen": 229
+        },
+        {
+          "msg": "وش يعني WebAssembly",
+          "agent": "search",
+          "ms": 1262,
+          "responseLen": 580
+        },
+        {
+          "msg": "سعر الذهب",
+          "agent": "price",
+          "ms": 489,
+          "responseLen": 177
+        },
+        {
+          "msg": "ترجم Deploy the application to production",
+          "agent": "tools",
+          "ms": 231,
+          "responseLen": 35
+        },
+        {
+          "msg": "اكتب مقال عن مستقبل الذكاء الاصطناعي",
+          "agent": "creative",
+          "ms": 2241,
+          "responseLen": 1856
+        },
+        {
+          "msg": "من هو لينوس تورفالدز",
+          "agent": "search",
+          "ms": 693,
+          "responseLen": 237
+        },
+        {
+          "msg": "ابحث عن وظائف برمجة عن بعد",
+          "agent": "search",
+          "ms": 985,
+          "responseLen": 397
+        },
+        {
+          "msg": "كيف أتعلم Kubernetes",
+          "agent": "search",
+          "ms": 1512,
+          "responseLen": 524
+        },
+        {
+          "msg": "اكتب رسالة لزميل عن code review",
+          "agent": "creative",
+          "ms": 2487,
+          "responseLen": 1229
+        },
+        {
+          "msg": "سعر الدولار",
+          "agent": "price",
+          "ms": 3,
+          "responseLen": 79
+        },
+        {
+          "msg": "صباح النور",
+          "agent": "morning",
+          "ms": 1497,
+          "responseLen": 407
+        },
+        {
+          "msg": "ابحث عن أفضل مكتبات Python للـ AI",
+          "agent": "search",
+          "ms": 837,
+          "responseLen": 434
+        },
+        {
+          "msg": "حول 1000 يورو لدولار",
+          "agent": "price",
+          "ms": 3,
+          "responseLen": 79
+        },
+        {
+          "msg": "اكتب بوست لينكد إن عن تجربتي كمبرمج",
+          "agent": "creative",
+          "ms": 1815,
+          "responseLen": 678
+        },
+        {
+          "msg": "وش أفضل IDE للبرمجة",
+          "agent": "search",
+          "ms": 1710,
+          "responseLen": 593
+        },
+        {
+          "msg": "تقرير يومي",
+          "agent": "morning",
+          "ms": 1413,
+          "responseLen": 398
+        }
+      ]
+    },
+    "سارة": {
+      "success": 31,
+      "errors": 0,
+      "messages": [
+        {
+          "msg": "هاي",
+          "agent": "onboarding",
+          "ms": 0,
+          "responseLen": 199
+        },
+        {
+          "msg": "سارة المطيري",
+          "agent": "onboarding",
+          "ms": 2,
+          "responseLen": 61
+        },
+        {
+          "msg": "الرياض",
+          "agent": "general",
+          "ms": 679,
+          "responseLen": 39
+        },
+        {
+          "msg": "ابحث عن تخصصات المستقبل",
+          "agent": "search",
+          "ms": 1060,
+          "responseLen": 476
+        },
+        {
+          "msg": "وش يعني machine learning",
+          "agent": "search",
+          "ms": 873,
+          "responseLen": 413
+        },
+        {
+          "msg": "اكتب لي مقدمة بحث عن الطاقة المتجددة",
+          "agent": "creative",
+          "ms": 1774,
+          "responseLen": 793
+        },
+        {
+          "msg": "صباح الخير",
+          "agent": "morning",
+          "ms": 1868,
+          "responseLen": 418
+        },
+        {
+          "msg": "سعر الذهب",
+          "agent": "price",
+          "ms": 409,
+          "responseLen": 130
+        },
+        {
+          "msg": "ترجم Sustainable development goals",
+          "agent": "tools",
+          "ms": 265,
+          "responseLen": 36
+        },
+        {
+          "msg": "كيو ار https://university.edu.sa",
+          "agent": "tools",
+          "ms": 2,
+          "responseLen": 146
+        },
+        {
+          "msg": "اكتب إيميل لدكتور عن تأجيل تسليم واجب",
+          "agent": "creative",
+          "ms": 2380,
+          "responseLen": 857
+        },
+        {
+          "msg": "ابحث عن منح دراسية في أمريكا",
+          "agent": "search",
+          "ms": 982,
+          "responseLen": 508
+        },
+        {
+          "msg": "حول 10000 ريال لدولار",
+          "agent": "price",
+          "ms": 15,
+          "responseLen": 79
+        },
+        {
+          "msg": "وش الفرق بين الماجستير والدكتوراه",
+          "agent": "search",
+          "ms": 1317,
+          "responseLen": 492
+        },
+        {
+          "msg": "اكتب ملخص عن التغير المناخي",
+          "agent": "creative",
+          "ms": 2042,
+          "responseLen": 1045
+        },
+        {
+          "msg": "سعر البتكوين",
+          "agent": "price",
+          "ms": 448,
+          "responseLen": 82
+        },
+        {
+          "msg": "ترجم I would like to apply for a scholarship",
+          "agent": "tools",
+          "ms": 265,
+          "responseLen": 36
+        },
+        {
+          "msg": "ابحث عن أفضل جامعات السعودية",
+          "agent": "search",
+          "ms": 999,
+          "responseLen": 655
+        },
+        {
+          "msg": "اكتب تغريدة عن الحياة الجامعية",
+          "agent": "creative",
+          "ms": 948,
+          "responseLen": 329
+        },
+        {
+          "msg": "من هي زها حديد",
+          "agent": "search",
+          "ms": 1155,
+          "responseLen": 239
+        },
+        {
+          "msg": "وش يعني GPA",
+          "agent": "search",
+          "ms": 1241,
+          "responseLen": 488
+        },
+        {
+          "msg": "اكتب رسالة تحفيزية",
+          "agent": "creative",
+          "ms": 2009,
+          "responseLen": 745
+        },
+        {
+          "msg": "صباح النور",
+          "agent": "morning",
+          "ms": 1582,
+          "responseLen": 453
+        },
+        {
+          "msg": "ابحث عن دورات مجانية أونلاين",
+          "agent": "search",
+          "ms": 775,
+          "responseLen": 375
+        },
+        {
+          "msg": "سعر الدولار",
+          "agent": "price",
+          "ms": 3,
+          "responseLen": 79
+        },
+        {
+          "msg": "اكتب بوست عن التخرج",
+          "agent": "creative",
+          "ms": 1663,
+          "responseLen": 651
+        },
+        {
+          "msg": "حول 5000 دولار لريال",
+          "agent": "price",
+          "ms": 2,
+          "responseLen": 79
+        },
+        {
+          "msg": "ترجم Research methodology",
+          "agent": "tools",
+          "ms": 222,
+          "responseLen": 25
+        },
+        {
+          "msg": "وش أفضل تطبيقات الدراسة",
+          "agent": "search",
+          "ms": 856,
+          "responseLen": 284
+        },
+        {
+          "msg": "شكراً يا وكيل",
+          "agent": "general",
+          "ms": 818,
+          "responseLen": 19
+        },
+        {
+          "msg": "تقرير يومي",
+          "agent": "morning",
+          "ms": 1451,
+          "responseLen": 280
+        }
+      ]
+    },
+    "عبدالله": {
+      "success": 31,
+      "errors": 0,
+      "messages": [
+        {
+          "msg": "السلام عليكم ورحمة الله",
+          "agent": "onboarding",
+          "ms": 0,
+          "responseLen": 199
+        },
+        {
+          "msg": "عبدالله الشهري",
+          "agent": "onboarding",
+          "ms": 2,
+          "responseLen": 63
+        },
+        {
+          "msg": "أبها",
+          "agent": "general",
+          "ms": 650,
+          "responseLen": 24
+        },
+        {
+          "msg": "ابحث عن أساليب التعليم الحديثة",
+          "agent": "search",
+          "ms": 685,
+          "responseLen": 325
+        },
+        {
+          "msg": "اكتب خطة درس عن الكسور",
+          "agent": "creative",
+          "ms": 1678,
+          "responseLen": 1212
+        },
+        {
+          "msg": "صباح الخير",
+          "agent": "morning",
+          "ms": 1605,
+          "responseLen": 475
+        },
+        {
+          "msg": "سعر الذهب",
+          "agent": "price",
+          "ms": 540,
+          "responseLen": 206
+        },
+        {
+          "msg": "وش يعني gamification في التعليم",
+          "agent": "search",
+          "ms": 1029,
+          "responseLen": 508
+        },
+        {
+          "msg": "ترجم Student-centered learning",
+          "agent": "tools",
+          "ms": 253,
+          "responseLen": 39
+        },
+        {
+          "msg": "كيو ار https://school.sa/homework",
+          "agent": "tools",
+          "ms": 3,
+          "responseLen": 150
+        },
+        {
+          "msg": "اكتب رسالة لأولياء الأمور عن اجتماع",
+          "agent": "creative",
+          "ms": 2422,
+          "responseLen": 942
+        },
+        {
+          "msg": "ابحث عن تطبيقات تعليمية للأطفال",
+          "agent": "search",
+          "ms": 980,
+          "responseLen": 469
+        },
+        {
+          "msg": "حول 300 دولار لريال",
+          "agent": "price",
+          "ms": 2,
+          "responseLen": 79
+        },
+        {
+          "msg": "اكتب إيميل للإدارة عن مقترح تطوير",
+          "agent": "creative",
+          "ms": 3561,
+          "responseLen": 1637
+        },
+        {
+          "msg": "سعر البتكوين",
+          "agent": "price",
+          "ms": 471,
+          "responseLen": 82
+        },
+        {
+          "msg": "وش الفرق بين التعليم المدمج والتقليدي",
+          "agent": "search",
+          "ms": 1542,
+          "responseLen": 482
+        },
+        {
+          "msg": "ترجم Assessment rubric",
+          "agent": "tools",
+          "ms": 248,
+          "responseLen": 26
+        },
+        {
+          "msg": "اكتب تغريدة عن يوم المعلم",
+          "agent": "creative",
+          "ms": 713,
+          "responseLen": 230
+        },
+        {
+          "msg": "ابحث عن استراتيجيات إدارة الصف",
+          "agent": "search",
+          "ms": 1303,
+          "responseLen": 534
+        },
+        {
+          "msg": "من هو ابن خلدون",
+          "agent": "search",
+          "ms": 828,
+          "responseLen": 248
+        },
+        {
+          "msg": "اكتب ملخص عن أهمية القراءة",
+          "agent": "creative",
+          "ms": 1338,
+          "responseLen": 562
+        },
+        {
+          "msg": "صباح النور",
+          "agent": "morning",
+          "ms": 1499,
+          "responseLen": 461
+        },
+        {
+          "msg": "سعر الدولار",
+          "agent": "price",
+          "ms": 2,
+          "responseLen": 79
+        },
+        {
+          "msg": "ابحث عن ألعاب تعليمية رياضيات",
+          "agent": "search",
+          "ms": 769,
+          "responseLen": 347
+        },
+        {
+          "msg": "اكتب رسالة تشجيع لطالب",
+          "agent": "creative",
+          "ms": 2438,
+          "responseLen": 893
+        },
+        {
+          "msg": "حول 100 يورو لريال",
+          "agent": "price",
+          "ms": 820,
+          "responseLen": 62
+        },
+        {
+          "msg": "وش أفضل منصات التعليم عن بعد",
+          "agent": "search",
+          "ms": 1413,
+          "responseLen": 533
+        },
+        {
+          "msg": "اكتب بوست عن التعليم في السعودية",
+          "agent": "creative",
+          "ms": 3068,
+          "responseLen": 1696
+        },
+        {
+          "msg": "ترجم Differentiated instruction",
+          "agent": "tools",
+          "ms": 227,
+          "responseLen": 29
+        },
+        {
+          "msg": "سعر سهم المراعي",
+          "agent": "price",
+          "ms": 289,
+          "responseLen": 61
+        },
+        {
+          "msg": "تقرير يومي",
+          "agent": "morning",
+          "ms": 1606,
+          "responseLen": 423
+        }
+      ]
+    },
+    "ريم": {
+      "success": 31,
+      "errors": 0,
+      "messages": [
+        {
+          "msg": "هلا والله",
+          "agent": "onboarding",
+          "ms": 0,
+          "responseLen": 199
+        },
+        {
+          "msg": "ريم السبيعي",
+          "agent": "onboarding",
+          "ms": 3,
+          "responseLen": 60
+        },
+        {
+          "msg": "المدينة",
+          "agent": "general",
+          "ms": 783,
+          "responseLen": 95
+        },
+        {
+          "msg": "ابحث عن وصفة كبسة لحم",
+          "agent": "search",
+          "ms": 1371,
+          "responseLen": 427
+        },
+        {
+          "msg": "اكتب قائمة مقادير لكيكة شوكولاتة",
+          "agent": "creative",
+          "ms": 683,
+          "responseLen": 309
+        },
+        {
+          "msg": "صباح الخير",
+          "agent": "morning",
+          "ms": 1485,
+          "responseLen": 416
+        },
+        {
+          "msg": "سعر الذهب",
+          "agent": "price",
+          "ms": 381,
+          "responseLen": 101
+        },
+        {
+          "msg": "ترجم Season the chicken with salt and pepper",
+          "agent": "tools",
+          "ms": 469,
+          "responseLen": 39
+        },
+        {
+          "msg": "وش يعني sous vide",
+          "agent": "search",
+          "ms": 1110,
+          "responseLen": 346
+        },
+        {
+          "msg": "كيو ار https://myrecipes.sa",
+          "agent": "tools",
+          "ms": 3,
+          "responseLen": 136
+        },
+        {
+          "msg": "اكتب بوست إنستغرام عن طبخة اليوم",
+          "agent": "creative",
+          "ms": 1543,
+          "responseLen": 539
+        },
+        {
+          "msg": "ابحث عن بدائل صحية للسكر",
+          "agent": "search",
+          "ms": 1067,
+          "responseLen": 510
+        },
+        {
+          "msg": "حول 50 دولار لريال",
+          "agent": "price",
+          "ms": 2,
+          "responseLen": 79
+        },
+        {
+          "msg": "اكتب وصفة مندي يمني",
+          "agent": "creative",
+          "ms": 2034,
+          "responseLen": 965
+        },
+        {
+          "msg": "سعر الزعفران",
+          "agent": "price",
+          "ms": 396,
+          "responseLen": 88
+        },
+        {
+          "msg": "وش الفرق بين الطبخ والخبز",
+          "agent": "search",
+          "ms": 1073,
+          "responseLen": 340
+        },
+        {
+          "msg": "ابحث عن أشهر الأطباق السعودية",
+          "agent": "search",
+          "ms": 1193,
+          "responseLen": 379
+        },
+        {
+          "msg": "اكتب إيميل لمورد عن طلب مواد",
+          "agent": "creative",
+          "ms": 2159,
+          "responseLen": 776
+        },
+        {
+          "msg": "ترجم Preheat the oven to 180 degrees",
+          "agent": "tools",
+          "ms": 279,
+          "responseLen": 35
+        },
+        {
+          "msg": "سعر الدولار",
+          "agent": "price",
+          "ms": 0,
+          "responseLen": 79
+        },
+        {
+          "msg": "اكتب قائمة مشتريات لحفلة 20 شخص",
+          "agent": "creative",
+          "ms": 1673,
+          "responseLen": 574
+        },
+        {
+          "msg": "صباح النور",
+          "agent": "morning",
+          "ms": 1590,
+          "responseLen": 454
+        },
+        {
+          "msg": "ابحث عن دورات طبخ في المدينة",
+          "agent": "search",
+          "ms": 775,
+          "responseLen": 368
+        },
+        {
+          "msg": "اكتب رسالة لعميل عن كاترينج",
+          "agent": "creative",
+          "ms": 4294,
+          "responseLen": 1135
+        },
+        {
+          "msg": "حول 200 ريال لدولار",
+          "agent": "price",
+          "ms": 0,
+          "responseLen": 79
+        },
+        {
+          "msg": "من هو جوردون رامزي",
+          "agent": "search",
+          "ms": 768,
+          "responseLen": 249
+        },
+        {
+          "msg": "وش أفضل أنواع الأرز للكبسة",
+          "agent": "general",
+          "ms": 1203,
+          "responseLen": 233
+        },
+        {
+          "msg": "اكتب تغريدة عن الطبخ السعودي",
+          "agent": "creative",
+          "ms": 619,
+          "responseLen": 234
+        },
+        {
+          "msg": "سعر البتكوين",
+          "agent": "price",
+          "ms": 342,
+          "responseLen": 82
+        },
+        {
+          "msg": "ابحث عن مطابخ سحابية",
+          "agent": "search",
+          "ms": 941,
+          "responseLen": 357
+        },
+        {
+          "msg": "تقرير يومي",
+          "agent": "morning",
+          "ms": 1399,
+          "responseLen": 403
+        }
+      ]
+    },
+    "خالد": {
+      "success": 31,
+      "errors": 0,
+      "messages": [
+        {
+          "msg": "يا هلا",
+          "agent": "onboarding",
+          "ms": 0,
+          "responseLen": 199
+        },
+        {
+          "msg": "خالد الدوسري",
+          "agent": "onboarding",
+          "ms": 0,
+          "responseLen": 61
+        },
+        {
+          "msg": "الرياض",
+          "agent": "general",
+          "ms": 729,
+          "responseLen": 32
+        },
+        {
+          "msg": "ابحث عن أحوال الطقس في دبي",
+          "agent": "search",
+          "ms": 695,
+          "responseLen": 377
+        },
+        {
+          "msg": "سعر النفط اليوم",
+          "agent": "price",
+          "ms": 355,
+          "responseLen": 120
+        },
+        {
+          "msg": "اكتب إيميل لشركة طيران عن إجازة",
+          "agent": "creative",
+          "ms": 2039,
+          "responseLen": 828
+        },
+        {
+          "msg": "صباح الخير",
+          "agent": "morning",
+          "ms": 1578,
+          "responseLen": 477
+        },
+        {
+          "msg": "ترجم Flight plan approved for departure",
+          "agent": "tools",
+          "ms": 237,
+          "responseLen": 40
+        },
+        {
+          "msg": "وش يعني turbulence",
+          "agent": "search",
+          "ms": 817,
+          "responseLen": 367
+        },
+        {
+          "msg": "كيو ار https://airline.sa/schedule",
+          "agent": "tools",
+          "ms": 1,
+          "responseLen": 152
+        },
+        {
+          "msg": "ابحث عن أفضل شركات الطيران 2026",
+          "agent": "search",
+          "ms": 1152,
+          "responseLen": 568
+        },
+        {
+          "msg": "سعر الذهب",
+          "agent": "price",
+          "ms": 465,
+          "responseLen": 182
+        },
+        {
+          "msg": "حول 2000 دولار لريال",
+          "agent": "price",
+          "ms": 1,
+          "responseLen": 79
+        },
+        {
+          "msg": "اكتب رسالة لطاقم الطائرة",
+          "agent": "creative",
+          "ms": 1628,
+          "responseLen": 737
+        },
+        {
+          "msg": "وش الفرق بين بوينغ وإيرباص",
+          "agent": "search",
+          "ms": 1104,
+          "responseLen": 306
+        },
+        {
+          "msg": "ابحث عن رحلات رخيصة من الرياض لإسطنبول",
+          "agent": "search",
+          "ms": 1058,
+          "responseLen": 450
+        },
+        {
+          "msg": "سعر البتكوين",
+          "agent": "price",
+          "ms": 471,
+          "responseLen": 82
+        },
+        {
+          "msg": "ترجم Altitude 35000 feet, speed 900 km/h",
+          "agent": "tools",
+          "ms": 240,
+          "responseLen": 50
+        },
+        {
+          "msg": "اكتب تغريدة عن حياة الطيار",
+          "agent": "creative",
+          "ms": 558,
+          "responseLen": 200
+        },
+        {
+          "msg": "من هي أول طيارة سعودية",
+          "agent": "search",
+          "ms": 895,
+          "responseLen": 200
+        },
+        {
+          "msg": "سعر الدولار",
+          "agent": "price",
+          "ms": 6,
+          "responseLen": 79
+        },
+        {
+          "msg": "صباح النور",
+          "agent": "morning",
+          "ms": 1729,
+          "responseLen": 425
+        },
+        {
+          "msg": "ابحث عن متطلبات رخصة الطيران",
+          "agent": "search",
+          "ms": 729,
+          "responseLen": 342
+        },
+        {
+          "msg": "اكتب بوست عن سفر",
+          "agent": "creative",
+          "ms": 1558,
+          "responseLen": 566
+        },
+        {
+          "msg": "حول 500 يورو لريال",
+          "agent": "price",
+          "ms": 826,
+          "responseLen": 62
+        },
+        {
+          "msg": "وش أفضل مطارات العالم",
+          "agent": "search",
+          "ms": 1228,
+          "responseLen": 498
+        },
+        {
+          "msg": "اكتب إيميل اعتذار عن تأخر رحلة",
+          "agent": "creative",
+          "ms": 1752,
+          "responseLen": 864
+        },
+        {
+          "msg": "ابحث عن تقنيات الطيران الحديثة",
+          "agent": "search",
+          "ms": 948,
+          "responseLen": 499
+        },
+        {
+          "msg": "ترجم Emergency landing procedures",
+          "agent": "tools",
+          "ms": 272,
+          "responseLen": 44
+        },
+        {
+          "msg": "سعر الفضة",
+          "agent": "price",
+          "ms": 447,
+          "responseLen": 110
+        },
+        {
+          "msg": "تقرير يومي",
+          "agent": "morning",
+          "ms": 1667,
+          "responseLen": 440
+        }
+      ]
+    },
+    "هند": {
+      "success": 31,
+      "errors": 0,
+      "messages": [
+        {
+          "msg": "مرحبا يا وكيل",
+          "agent": "onboarding",
+          "ms": 0,
+          "responseLen": 199
+        },
+        {
+          "msg": "هند الحربي",
+          "agent": "onboarding",
+          "ms": 1,
+          "responseLen": 59
+        },
+        {
+          "msg": "جدة",
+          "agent": "general",
+          "ms": 1132,
+          "responseLen": 52
+        },
+        {
+          "msg": "ابحث عن ترندات التصميم 2026",
+          "agent": "search",
+          "ms": 994,
+          "responseLen": 472
+        },
+        {
+          "msg": "وش يعني UX design",
+          "agent": "search",
+          "ms": 932,
+          "responseLen": 377
+        },
+        {
+          "msg": "اكتب بريف تصميم لتطبيق توصيل",
+          "agent": "creative",
+          "ms": 4798,
+          "responseLen": 2939
+        },
+        {
+          "msg": "صباح الخير",
+          "agent": "morning",
+          "ms": 1573,
+          "responseLen": 436
+        },
+        {
+          "msg": "سعر الذهب",
+          "agent": "price",
+          "ms": 503,
+          "responseLen": 219
+        },
+        {
+          "msg": "ترجم User interface mockup",
+          "agent": "tools",
+          "ms": 231,
+          "responseLen": 33
+        },
+        {
+          "msg": "كيو ار https://portfolio.hind.sa",
+          "agent": "tools",
+          "ms": 1,
+          "responseLen": 146
+        },
+        {
+          "msg": "اكتب إيميل لعميل عن عرض سعر تصميم",
+          "agent": "price",
+          "ms": 650,
+          "responseLen": 200
+        },
+        {
+          "msg": "ابحث عن أفضل أدوات التصميم",
+          "agent": "search",
+          "ms": 667,
+          "responseLen": 275
+        },
+        {
+          "msg": "حول 800 دولار لريال",
+          "agent": "price",
+          "ms": 0,
+          "responseLen": 79
+        },
+        {
+          "msg": "وش الفرق بين UI و UX",
+          "agent": "search",
+          "ms": 1289,
+          "responseLen": 525
+        },
+        {
+          "msg": "اكتب تغريدة عن التصميم الإبداعي",
+          "agent": "creative",
+          "ms": 669,
+          "responseLen": 265
+        },
+        {
+          "msg": "سعر البتكوين",
+          "agent": "price",
+          "ms": 444,
+          "responseLen": 82
+        },
+        {
+          "msg": "ابحث عن خطوط عربية مجانية",
+          "agent": "search",
+          "ms": 647,
+          "responseLen": 294
+        },
+        {
+          "msg": "من هو ديتر رامز",
+          "agent": "search",
+          "ms": 845,
+          "responseLen": 308
+        },
+        {
+          "msg": "اكتب رسالة لزميل عن فيدباك تصميم",
+          "agent": "creative",
+          "ms": 2498,
+          "responseLen": 1132
+        },
+        {
+          "msg": "ترجم Color palette and typography guide",
+          "agent": "tools",
+          "ms": 308,
+          "responseLen": 33
+        },
+        {
+          "msg": "سعر الدولار",
+          "agent": "price",
+          "ms": 1,
+          "responseLen": 79
+        },
+        {
+          "msg": "صباح النور",
+          "agent": "morning",
+          "ms": 2774,
+          "responseLen": 426
+        },
+        {
+          "msg": "اكتب مقال عن أهمية التصميم البصري",
+          "agent": "creative",
+          "ms": 4005,
+          "responseLen": 2093
+        },
+        {
+          "msg": "ابحث عن مسابقات تصميم",
+          "agent": "search",
+          "ms": 1433,
+          "responseLen": 684
+        },
+        {
+          "msg": "حول 150 يورو لريال",
+          "agent": "price",
+          "ms": 870,
+          "responseLen": 62
+        },
+        {
+          "msg": "وش أفضل ألوان للتطبيقات الطبية",
+          "agent": "search",
+          "ms": 1408,
+          "responseLen": 325
+        },
+        {
+          "msg": "اكتب بوست لينكد إن عن شغلي كمصممة",
+          "agent": "creative",
+          "ms": 1443,
+          "responseLen": 576
+        },
+        {
+          "msg": "سعر الإيثيريوم",
+          "agent": "price",
+          "ms": 430,
+          "responseLen": 66
+        },
+        {
+          "msg": "ابحث عن وظائف تصميم عن بعد",
+          "agent": "search",
+          "ms": 1302,
+          "responseLen": 528
+        },
+        {
+          "msg": "ترجم Responsive design principles",
+          "agent": "tools",
+          "ms": 508,
+          "responseLen": 32
+        },
+        {
+          "msg": "تقرير يومي",
+          "agent": "morning",
+          "ms": 1610,
+          "responseLen": 487
+        }
+      ]
+    },
+    "سلطان": {
+      "success": 31,
+      "errors": 0,
+      "messages": [
+        {
+          "msg": "السلام عليكم",
+          "agent": "onboarding",
+          "ms": 1,
+          "responseLen": 199
+        },
+        {
+          "msg": "سلطان العنزي",
+          "agent": "onboarding",
+          "ms": 1,
+          "responseLen": 61
+        },
+        {
+          "msg": "الخبر",
+          "agent": "general",
+          "ms": 878,
+          "responseLen": 41
+        },
+        {
+          "msg": "ابحث عن مشاريع نيوم",
+          "agent": "search",
+          "ms": 783,
+          "responseLen": 264
+        },
+        {
+          "msg": "سعر الحديد اليوم",
+          "agent": "price",
+          "ms": 870,
+          "responseLen": 177
+        },
+        {
+          "msg": "اكتب إيميل لمقاول عن تأخر مشروع",
+          "agent": "creative",
+          "ms": 2658,
+          "responseLen": 1065
+        },
+        {
+          "msg": "صباح الخير",
+          "agent": "morning",
+          "ms": 1438,
+          "responseLen": 458
+        },
+        {
+          "msg": "وش يعني BIM في الهندسة",
+          "agent": "search",
+          "ms": 1270,
+          "responseLen": 480
+        },
+        {
+          "msg": "ترجم Structural analysis report",
+          "agent": "tools",
+          "ms": 276,
+          "responseLen": 34
+        },
+        {
+          "msg": "كيو ار https://project.sa/site-report",
+          "agent": "tools",
+          "ms": 8,
+          "responseLen": 158
+        },
+        {
+          "msg": "ابحث عن معايير البناء السعودية",
+          "agent": "search",
+          "ms": 1042,
+          "responseLen": 492
+        },
+        {
+          "msg": "سعر الذهب",
+          "agent": "price",
+          "ms": 545,
+          "responseLen": 252
+        },
+        {
+          "msg": "حول 5000 دولار لريال",
+          "agent": "price",
+          "ms": 3,
+          "responseLen": 79
+        },
+        {
+          "msg": "اكتب رسالة لفريق العمل عن السلامة",
+          "agent": "creative",
+          "ms": 3199,
+          "responseLen": 1365
+        },
+        {
+          "msg": "وش الفرق بين الخرسانة والحديد",
+          "agent": "search",
+          "ms": 1177,
+          "responseLen": 359
+        },
+        {
+          "msg": "سعر البتكوين",
+          "agent": "price",
+          "ms": 498,
+          "responseLen": 82
+        },
+        {
+          "msg": "ابحث عن شركات مقاولات الشرقية",
+          "agent": "search",
+          "ms": 1308,
+          "responseLen": 756
+        },
+        {
+          "msg": "اكتب تقرير مختصر عن تقدم مشروع",
+          "agent": "creative",
+          "ms": 1997,
+          "responseLen": 907
+        },
+        {
+          "msg": "ترجم Project completion milestone",
+          "agent": "tools",
+          "ms": 307,
+          "responseLen": 37
+        },
+        {
+          "msg": "من هو زها حديد",
+          "agent": "search",
+          "ms": 731,
+          "responseLen": 215
+        },
+        {
+          "msg": "سعر الدولار",
+          "agent": "price",
+          "ms": 2,
+          "responseLen": 79
+        },
+        {
+          "msg": "صباح النور",
+          "agent": "morning",
+          "ms": 2048,
+          "responseLen": 371
+        },
+        {
+          "msg": "اكتب تغريدة عن الهندسة السعودية",
+          "agent": "creative",
+          "ms": 616,
+          "responseLen": 250
+        },
+        {
+          "msg": "ابحث عن تقنيات البناء الحديثة",
+          "agent": "search",
+          "ms": 722,
+          "responseLen": 279
+        },
+        {
+          "msg": "حول 1000 ريال ليورو",
+          "agent": "price",
+          "ms": 796,
+          "responseLen": 62
+        },
+        {
+          "msg": "وش أفضل برامج التصميم الهندسي",
+          "agent": "search",
+          "ms": 1482,
+          "responseLen": 485
+        },
+        {
+          "msg": "اكتب بوست عن رؤية 2030 والبناء",
+          "agent": "creative",
+          "ms": 1773,
+          "responseLen": 698
+        },
+        {
+          "msg": "سعر النفط",
+          "agent": "price",
+          "ms": 368,
+          "responseLen": 54
+        },
+        {
+          "msg": "ابحث عن معارض بناء في السعودية",
+          "agent": "search",
+          "ms": 1032,
+          "responseLen": 661
+        },
+        {
+          "msg": "ترجم Quality assurance inspection",
+          "agent": "tools",
+          "ms": 245,
+          "responseLen": 30
+        },
+        {
+          "msg": "تقرير يومي",
+          "agent": "morning",
+          "ms": 2274,
+          "responseLen": 267
+        }
+      ]
+    },
+    "لمى": {
+      "success": 31,
+      "errors": 0,
+      "messages": [
+        {
+          "msg": "هاي وكيل",
+          "agent": "onboarding",
+          "ms": 0,
+          "responseLen": 199
+        },
+        {
+          "msg": "لمى الزهراني",
+          "agent": "onboarding",
+          "ms": 0,
+          "responseLen": 61
+        },
+        {
+          "msg": "الرياض",
+          "agent": "general",
+          "ms": 995,
+          "responseLen": 45
+        },
+        {
+          "msg": "ابحث عن أفضل إطارات الويب 2026",
+          "agent": "search",
+          "ms": 1223,
+          "responseLen": 456
+        },
+        {
+          "msg": "وش يعني serverless",
+          "agent": "search",
+          "ms": 1372,
+          "responseLen": 542
+        },
+        {
+          "msg": "اكتب لي وصف وظيفي لمطور Full Stack",
+          "agent": "creative",
+          "ms": 3140,
+          "responseLen": 1459
+        },
+        {
+          "msg": "صباح الخير",
+          "agent": "morning",
+          "ms": 1867,
+          "responseLen": 397
+        },
+        {
+          "msg": "سعر البتكوين",
+          "agent": "price",
+          "ms": 438,
+          "responseLen": 82
+        },
+        {
+          "msg": "ترجم Continuous integration pipeline",
+          "agent": "tools",
+          "ms": 273,
+          "responseLen": 38
+        },
+        {
+          "msg": "كيو ار https://github.com/lama-dev",
+          "agent": "tools",
+          "ms": 0,
+          "responseLen": 152
+        },
+        {
+          "msg": "اكتب إيميل لمديري عن ترقية",
+          "agent": "creative",
+          "ms": 1989,
+          "responseLen": 847
+        },
+        {
+          "msg": "ابحث عن مجتمعات برمجة نسائية",
+          "agent": "search",
+          "ms": 899,
+          "responseLen": 407
+        },
+        {
+          "msg": "حول 700 دولار لريال",
+          "agent": "price",
+          "ms": 1,
+          "responseLen": 79
+        },
+        {
+          "msg": "وش الفرق بين SQL و NoSQL",
+          "agent": "search",
+          "ms": 1436,
+          "responseLen": 541
+        },
+        {
+          "msg": "اكتب تغريدة تقنية عن TypeScript",
+          "agent": "creative",
+          "ms": 596,
+          "responseLen": 252
+        },
+        {
+          "msg": "سعر الذهب",
+          "agent": "price",
+          "ms": 518,
+          "responseLen": 45
+        },
+        {
+          "msg": "ابحث عن هاكاثونات في السعودية",
+          "agent": "search",
+          "ms": 1356,
+          "responseLen": 463
+        },
+        {
+          "msg": "من هي مريم المزروعي",
+          "agent": "search",
+          "ms": 1165,
+          "responseLen": 287
+        },
+        {
+          "msg": "اكتب مقال عن المرأة في التقنية",
+          "agent": "creative",
+          "ms": 3289,
+          "responseLen": 1645
+        },
+        {
+          "msg": "ترجم Agile sprint retrospective",
+          "agent": "tools",
+          "ms": 472,
+          "responseLen": 30
+        },
+        {
+          "msg": "سعر الدولار",
+          "agent": "price",
+          "ms": 1,
+          "responseLen": 79
+        },
+        {
+          "msg": "صباح النور",
+          "agent": "morning",
+          "ms": 1875,
+          "responseLen": 414
+        },
+        {
+          "msg": "اكتب رسالة لفريق عن standup meeting",
+          "agent": "creative",
+          "ms": 2175,
+          "responseLen": 767
+        },
+        {
+          "msg": "ابحث عن رواتب المبرمجين في السعودية",
+          "agent": "search",
+          "ms": 985,
+          "responseLen": 396
+        },
+        {
+          "msg": "حول 3000 ريال لدولار",
+          "agent": "price",
+          "ms": 1,
+          "responseLen": 79
+        },
+        {
+          "msg": "وش أفضل خدمات الكلاود",
+          "agent": "search",
+          "ms": 1029,
+          "responseLen": 349
+        },
+        {
+          "msg": "اكتب بوست لينكد إن عن التعلم الذاتي",
+          "agent": "creative",
+          "ms": 2258,
+          "responseLen": 875
+        },
+        {
+          "msg": "سعر الإيثيريوم",
+          "agent": "price",
+          "ms": 422,
+          "responseLen": 67
+        },
+        {
+          "msg": "ابحث عن أفضل مصادر تعلم React",
+          "agent": "search",
+          "ms": 1185,
+          "responseLen": 494
+        },
+        {
+          "msg": "ترجم Code review best practices",
+          "agent": "tools",
+          "ms": 311,
+          "responseLen": 39
+        },
+        {
+          "msg": "تقرير يومي",
+          "agent": "morning",
+          "ms": 1633,
+          "responseLen": 377
+        }
+      ]
+    }
+  }
+}

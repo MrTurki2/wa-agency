@@ -1,0 +1,21 @@
+{
+  "name": "wa-agency",
+  "version": "0.1.0",
+  "description": "WhatsApp AI Agency — team of AI agents serving subscribers via WhatsApp",
+  "type": "module",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node --watch server.mjs",
+    "sim": "node scripts/simulate.mjs",
+    "test": "node scripts/test-personas.mjs"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.19.11",
+    "hono": "^4.12.9",
+    "better-sqlite3": "^11.7.0"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}
